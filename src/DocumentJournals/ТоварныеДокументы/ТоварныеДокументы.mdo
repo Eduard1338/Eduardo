@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4393c26-1cea-4616-aa10-3dadf021e8c3">
+  <producedTypes>
+    <selectionType typeId="fb3720c3-4d8e-4e35-bc64-7ed7bdd70b90" valueTypeId="4971afe1-815c-4788-b15a-effb165c4507"/>
+    <listType typeId="286d2442-a3e2-4beb-9b3a-c6644dc4182c" valueTypeId="c8e0a3a7-99a7-4428-9da7-1ed0facf5ecd"/>
+    <managerType typeId="394a878b-566d-4c28-8fff-5a28282ae732" valueTypeId="44abcf26-1a1c-4c75-9fac-a6d099b5c9a9"/>
+  </producedTypes>
+  <name>ТоварныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товарные документы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПоступлениеТоваров</registeredDocuments>
+  <registeredDocuments>Document.РеализацияТоваров</registeredDocuments>
+  <columns uuid="977676dd-a389-4f75-8466-4d33a0934568">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваров.Attribute.Контрагент</references>
+    <references>Document.РеализацияТоваров.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="2d4d1a75-6a1d-4743-9e99-1dce670d20b8">
+    <name>Ответсвтенный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответсвтенный</value>
+    </synonym>
+    <references>Document.РеализацияТоваров.Attribute.Ответственный</references>
+    <references>Document.ПоступлениеТоваров.Attribute.Ответственный</references>
+  </columns>
+</mdclass:DocumentJournal>
