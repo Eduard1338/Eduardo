@@ -24,6 +24,8 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.РеализацияТоваров.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="5eca8454-9685-40fa-96ce-4ff61c82b1ef">
@@ -56,6 +58,15 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="df4084ef-7992-4f6f-9b30-b3b4c1ef0f98">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="37bb3af2-67d5-4133-aee6-b4fdf6be42a9">
     <producedTypes>
       <objectType typeId="5b655507-1eec-45f3-9702-2651b989e915" valueTypeId="b90df7b4-187c-4cc4-9fcc-c2cddcf6b578"/>
@@ -138,6 +149,9 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="fbbff2c8-6621-49c8-8ed9-499dba931670">
+    <name>Печать</name>
+  </templates>
   <commands uuid="b67abc37-fb25-4846-ad92-7710b96e0a73">
     <name>Печать</name>
     <group>FormCommandBarImportant</group>
