@@ -16,4 +16,5 @@
   <content>Catalog.Сотрудники</content>
   <content>Constant.Организация</content>
   <content>Constant.Склад</content>
+  <content>Report.ЗакупкиТоваров</content>
 </mdclass:Subsystem>
