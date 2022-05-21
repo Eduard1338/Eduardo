@@ -17,4 +17,5 @@
   <content>Constant.Организация</content>
   <content>Constant.Склад</content>
   <content>Report.ЗакупкиТоваров</content>
+  <content>Report.ОстаткиТоваровПоДаннымДокументам</content>
 </mdclass:Subsystem>
