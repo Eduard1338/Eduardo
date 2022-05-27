@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82bb86da-533d-410f-bafb-cc32fd846c01">
+  <producedTypes>
+    <objectType typeId="1eba65db-bfea-43a1-b52a-ee0b6c261c5c" valueTypeId="64499ab1-4f67-4148-acfe-90417b3e202e"/>
+    <managerType typeId="c0856688-9e58-42ab-9ada-2b4d0e298123" valueTypeId="45ff3760-a6da-41f6-afd8-79ab078e8227"/>
+  </producedTypes>
+  <name>ВалоывПрибыль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валоыв прибыль</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВалоывПрибыль.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="af7aea5e-10ea-4fff-900e-d8913c46df37">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
