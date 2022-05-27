@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfAccounts xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04b3b549-99de-4c1c-98f5-41539a1d80a2">
+  <producedTypes>
+    <objectType typeId="e3bdec14-dceb-4182-bccb-7e7a900d807f" valueTypeId="1b6256ff-93d3-4a77-9f48-db61d31d4e8a"/>
+    <refType typeId="9047b942-4d53-40bf-b7d0-0bea70289e27" valueTypeId="da1da297-de4c-4b8d-8798-916ac43f22df"/>
+    <selectionType typeId="14fe8c18-9ce8-405b-a0b5-e619a19cee80" valueTypeId="f5a77e5a-5126-4301-9a13-ea975bcbdfb8"/>
+    <listType typeId="c891df26-dcd5-4d0a-8f5a-5c7339c47a02" valueTypeId="cc1a1a4a-d165-4b8c-a145-867579ff3595"/>
+    <managerType typeId="8414dfd7-c5c9-4985-8ec7-3d8b173b51aa" valueTypeId="2bf11e30-5c9d-43a2-be86-5c577961029d"/>
+    <extDimensionTypes typeId="1aeb9dcb-0e2b-4d15-86cc-6b1c5cdd5ee2" valueTypeId="38e7d9fa-c7f4-476d-8842-a4a0c44ccb5e"/>
+    <extDimensionTypesRow typeId="4e2f82e8-50cc-48cf-9897-05f536668f54" valueTypeId="0780c2c7-2b62-4c63-95af-c3da1185824a"/>
+  </producedTypes>
+  <name>БухУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бух учет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfAccounts.БухУчет.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfAccounts.БухУчет.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <predefined>
+    <items id="44296e42-e05b-4cbf-97af-ff16fcdbb5cc">
+      <name>Товары</name>
+      <description>Товары</description>
+      <code>41       </code>
+    </items>
+    <items id="c223c575-a784-4e7c-8c70-d791c4bb8daf">
+      <name>РсчетыСПоставщиками</name>
+      <description>Рсчеты с поставщиками</description>
+      <code>60       </code>
+      <accountType>Passive</accountType>
+    </items>
+    <items id="f9cb078c-fabc-4490-8c2f-6c29dd7e23d8">
+      <name>Себестоимость</name>
+      <description>Себестоимость</description>
+      <code>90.1     </code>
+    </items>
+    <items id="451c362d-fbff-4b68-aa63-a90ff2f36473">
+      <name>РсчетыСПокупателем</name>
+      <description>Рсчеты с покупателем</description>
+      <code>62       </code>
+    </items>
+    <items id="f6be3ac0-b45b-424c-8d2a-f5f13bab8236">
+      <name>Выручка</name>
+      <description>Выручка</description>
+      <code>90.2     </code>
+      <accountType>Passive</accountType>
+    </items>
+    <items id="6a25f1b7-8e44-483e-ad22-9a3c2db77972">
+      <name>Касса</name>
+      <description>Касса</description>
+      <code>50       </code>
+    </items>
+    <items id="6f0bbd17-def0-4670-9cde-ff5ebb2278a3">
+      <name>РасчетныеСчета</name>
+      <description>Расчетные счета</description>
+      <code>51       </code>
+      <accountType>ActivePassive</accountType>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfAccounts>
