@@ -13,4 +13,5 @@
   <content>CalculationRegister.РегистрНачисления</content>
   <content>Document.НеВыходСотрудника</content>
   <content>Document.НачислениеОклада</content>
+  <content>Document.НачислениеПремии</content>
 </mdclass:Subsystem>

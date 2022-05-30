@@ -49,5 +49,31 @@
       </code>
       <displaced>ChartOfCalculationTypes.Начисления.Невыход</displaced>
     </items>
+    <items id="b58686e8-bc25-4de4-98b8-1839d7050775">
+      <name>Премия</name>
+      <description>Премия</description>
+      <code xsi:type="core:StringValue">
+        <value>003</value>
+      </code>
+    </items>
   </predefined>
+  <attributes uuid="6474f729-b8d2-4a9b-ba6b-d1eab5bf6d2d">
+    <name>РасчетныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчетные данные</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:ChartOfCalculationTypes>
