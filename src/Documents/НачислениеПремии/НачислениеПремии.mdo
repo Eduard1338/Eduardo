@@ -24,6 +24,10 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <registerRecords>CalculationRegister.РегистрНачисления</registerRecords>
+  <registerRecords>AccumulationRegister.ЗадолженостьПередСотрудниками</registerRecords>
+  <registerRecords>AccumulationRegister.ЗадолженостьПередСотрудниками</registerRecords>
+  <registerRecords>AccumulationRegister.ЗадолженостьПередСотрудниками</registerRecords>
+  <registerRecords>AccumulationRegister.ЗадолженостьПередСотрудниками</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <tabularSections uuid="faa15e25-58fa-4180-9433-315eaf147a1c">

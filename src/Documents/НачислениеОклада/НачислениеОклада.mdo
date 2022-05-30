@@ -24,6 +24,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <registerRecords>CalculationRegister.РегистрНачисления</registerRecords>
+  <registerRecords>AccumulationRegister.ЗадолженостьПередСотрудниками</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="1fb8b54e-7e00-4506-8a4c-1bdb132b52ed">
