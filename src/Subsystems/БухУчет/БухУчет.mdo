@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>AccountingRegister.РегистрБухУчет</content>
   <content>ChartOfAccounts.БухУчет</content>
+  <content>Document.БухгалтерскаяОперация</content>
 </mdclass:Subsystem>

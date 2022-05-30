@@ -13,4 +13,5 @@
   <content>InformationRegister.ЦеныНоменклатуры</content>
   <content>AccumulationRegister.Продажи</content>
   <content>Report.ВалоывПрибыль</content>
+  <content>AccountingRegister.РегистрБухУчет</content>
 </mdclass:Subsystem>
