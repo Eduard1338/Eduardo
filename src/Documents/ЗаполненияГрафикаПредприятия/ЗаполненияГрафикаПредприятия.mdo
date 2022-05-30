@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04cb5d1d-e915-40b4-b5be-7d6a9422dac3">
+  <producedTypes>
+    <objectType typeId="77e1edf5-ac67-476b-83cd-8618176b71fa" valueTypeId="1865770d-1fe6-4879-be2a-d4c8db9d950d"/>
+    <refType typeId="f3b0129c-c443-43ba-a00f-ed72fc4d528a" valueTypeId="bd388644-fb0d-4b73-badf-6afef22a3722"/>
+    <selectionType typeId="29e68c9c-558e-4da4-acd8-caafddfd0422" valueTypeId="b2e93f37-0872-4859-b2c5-bd8ebcc1f0d9"/>
+    <listType typeId="0af933f5-71c9-429a-b696-4507f68c467f" valueTypeId="923defad-4b04-43ef-975c-8b55bcc64a8e"/>
+    <managerType typeId="669a904d-5363-43a1-88c0-ff5bf3eef408" valueTypeId="647b2f12-3a11-49ef-82f8-6d734be3340e"/>
+  </producedTypes>
+  <name>ЗаполненияГрафикаПредприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнения графика предприятия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗаполненияГрафикаПредприятия.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>InformationRegister.График</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>
